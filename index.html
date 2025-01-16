@@ -1,83 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Configuración básica de la página -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajuste para hacerlo responsive en dispositivos móviles -->
+    <title>Tec. Yurquina Ruben Antonio</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS para los estilos -->
 </head>
 <body>
+    <!-- Cabecera de la página con la información principal -->
     <header>
-        <h1>Yuuina Ruben Antonio</h1>
-        <p>Tecnico en electronica, Futuro Ing.Informatico | Salta, Argentina</p>
-        <p>Correo: antonioyurquina.10@gmail.com | Teléfono: +54-9-3874407770</p>
+        <div class="foto">
+            <img src="fotocv.jpg" alt="Foto de perfil">
+        </div>
+    <div> <!-- Contenedor para el texto -->
+        <h1>Yurquina Ruben Antonio</h1> <!-- Nombre principal -->
+        <p>Tecnico en electronica, Tecnico en informatica</p> <!-- Títulos profesionales -->
+        <p>Futuro Ing.Informatico | Salta, Argentina</p> <!-- Objetivo profesional y ubicación -->
+        <p>Correo: antonioyurquina.10@gmail.com | Teléfono: +54-9-3874407770</p> <!-- Datos de contacto -->
+    </div>
+                
     </header>
+
+    <!-- Sección principal de la página -->
     <main>
+        <!-- Sección de perfil profesional -->
         <section id="perfil">
-            <h2>Perfil Profesional</h2>
-            <p>Persona organizada, responsable y con habilidades comprobadas en liderazgo y administración. Capaz de adaptarse a diferentes entornos laborales con rapidez. Con gran disposición para aprender nuevas habilidades y participar en capacitaciones, con el objetivo de aportar al crecimiento de la empresa mientras desarrollo mi potencial profesional. Espero la oportunidad de demostrar mi compromiso y desempeño como empleado.
-            </p>
-            <section id="experiencia">
-                <h2>Experiencia Laboral</h2>
-                <article>
-                    <h3>Administrador de Alquileres</h3>
-                    <p><strong>Empresa:</strong> Norte Hospedaje | <strong>Fecha:</strong> 2022 - Actualidad</p>
-                    <ul>
-                        <li>Gestión de reservas</li>
-                        <li>Cobros y atención personalizada a clientes</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Ayudante de Herrería</h3>
-                    <p><strong>Empresa:</strong> Cristián Figueroa | Francisco López 1394</p>
-                    <ul>
-                        <li>Colaboración en proyectos de soldadura</li>
-                        <li>Fabricación de estructuras</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Ayudante de Bicicletería</h3>
-                    <p><strong>Empresa:</strong> Bicicletería ALFI | <strong>Dirección:</strong> Av. Independencia 1402</p>
-                    <ul>
-                        <li>Reparación de bicicletas</li>
-                        <li>Mantenimiento y atención al cliente</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Docente Particular</h3>
-                    <p><strong>Materia:</strong> Matemática, Física y Química</p>
-                    <ul>
-                        <li>Clases personalizadas para estudiantes de nivel secundario</li>
-                    </ul>
-                </article> 
+            <h2>Perfil Profesional</h2> <!-- Título de la sección -->
+            <p>Soy un profesional altamente organizado y responsable, con una sólida formación técnica y experiencia en gestión y atención al cliente. Poseo habilidades comprobadas en liderazgo, administración, y trabajo en equipo, siempre enfocado en la mejora continua y la optimización de procesos. Mi enfoque está en integrar soluciones tecnológicas con un fuerte sentido de compromiso y eficiencia en todas mis actividades.
+            </p> <!-- Descripción personal y habilidades -->
         </section>
+
+        <!-- Sección de experiencia laboral -->
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2> <!-- Título de la sección -->
+            
+            <article>
+                <h3>Desarrollador Web Independiente</h3> <!-- Título del puesto -->
+                <p><strong>Empresa:</strong> PARTICULAR | <strong>Fecha:</strong> fines 2023 - Actualidad</p> <!-- Información sobre el trabajo -->
+                <p>He trabajado en diversos proyectos relacionados con la gestión de reservas y optimización de procesos administrativos. Algunos de los proyectos destacados incluyen:</p>
+                <ul>
+                    <li>Página web publicitaria y blog personal para <strong>Yurka Tattoo</strong>.</li>
+                    <li>Sistema de gestos de pedidos y comandas para <strong>El Huaico Comidas</strong>.</li>
+                    <li>Calculadora de probabilidades, desarrollada como parte de un <strong>Proyecto Universitario</strong>.</li>
+                    <li>Graficadora web, desarrollada como parte de un <strong>Proyecto Universitario</strong>.</li>
+                    <li>Gestor de departamentos para <strong>Norte Hospedajes</strong>.</li>
+                    <li><strong>Estrategias Universitarias</strong>: Proyecto personal de planificación académica.</li>
+                    <li>Página web publicitaria y gestor de pedidos para <strong>Cuchillos Camacho</strong>.</li>
+                    <li>Página web publicitaria y gestor de preguntas para <strong>Nutricionista Sánchez</strong>.</li>
+                </ul>
+                <p>Puedes encontrar más detalles de estos proyectos y otros trabajos en mi perfil de GitHub: <a href="https://github.com/AnatolysWeb" target="_blank">github.com/AnatolysWeb</a>.</p>
+            </article>
+            
+
+            <!-- Primer trabajo en la experiencia laboral -->         
+            <article>
+                <h3>Administrador de Alquileres</h3> <!-- Título del puesto -->
+                <p><strong>Empresa:</strong> Norte Hospedaje | <strong>Fecha:</strong> 2022 - Actualidad</p> <!-- Información sobre el trabajo -->
+                <ul>
+                    <li>Gestión de reservas</li> <!-- Tareas realizadas -->
+                    <li>Cobros y atención personalizada a clientes</li>
+                </ul>
+            </article>
+
+            <!-- Segundo trabajo en la experiencia laboral -->
+            <article>
+                <h3>Ayudante de Herrería</h3>
+                <p><strong>Empresa:</strong> Cristián Figueroa | Francisco López 1394</p>
+                <ul>
+                    <li>Colaboración en proyectos de soldadura</li>
+                    <li>Fabricación de estructuras</li>
+                </ul>
+            </article>
+
+            <!-- Tercer trabajo en la experiencia laboral -->
+            <article>
+                <h3>Ayudante de Bicicletería</h3>
+                <p><strong>Empresa:</strong> Bicicletería ALFI | <strong>Dirección:</strong> Av. Independencia 1402</p>
+                <ul>
+                    <li>Reparación de bicicletas</li>
+                    <li>Mantenimiento y atención al cliente</li>
+                </ul>
+            </article>
+
+            <!-- Cuarto trabajo en la experiencia laboral -->
+            <article>
+                <h3>Docente Particular</h3>
+                <p><strong>Materia:</strong> Matemática, Física y Química</p>
+                <ul>
+                    <li>Clases personalizadas para estudiantes de nivel secundario</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Sección de educación -->
         <section id="educacion">
-            <h2>Educación</h2>
-            <p><strong>Título:</strong> Ingeniero en Informatica</p>
+            <h2>Educación</h2> <!-- Título de la sección -->
+            <p><strong>Título:</strong> Ingeniero en Informatica</p> <!-- Información educativa -->
             <p><strong>Institución:</strong> Universidad Católica de Salta | <strong>Fecha:</strong> (En curso - 3er Año)</p>
-            
+
             <p><strong>Título:</strong> Ingeniería Industrial - Carrera incompleta</p>
-            <p><strong>Institución:</strong> Universidad Nacional de Salta (UNSa) | <strong>Fecha:</strong> (2020 - 2023) </p>
-            
+            <p><strong>Institución:</strong> Universidad Nacional de Salta (UNSa) | <strong>Fecha:</strong> (2020 - 2023)</p>
+
             <p><strong>Título:</strong> Técnico Electrónico</p>
             <p><strong>Institución:</strong> EET 3138 Albert Einstein (ex ENET 2) | <strong>Fecha:</strong> (2014 - 2019)</p>
-            
+
             <p><strong>Título:</strong> Marketing Digital</p>
             <p><strong>Institución:</strong> Escuela de Artes y Oficios | <strong>Fecha:</strong> (2021)</p>
-    
-            <section id="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li><strong>Software Ofimático:</strong> Manejo avanzado de Microsoft Word y Excel</li>
-                    <li><strong>Gestión Documental:</strong> Conocimiento en impresión y fotocopiado profesional</li>
-                    <li><strong>Administración y Finanzas:</strong> Correcto manejo de caja y procesos administrativos</li>
-                    <li><strong>Atención al Cliente:</strong> Fluidez en comunicación y resolución de problemas</li>
-                </ul>          
         </section>
+
+        <!-- Sección de habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2> <!-- Título de la sección -->
+            <ul>
+                <li><strong>Manejo de Ciencia de Datos:</strong> Conocimiento y experiencia en el manejo de grandes volúmenes de datos utilizando lenguajes como Java, Python, y herramientas de análisis de datos. Familiaridad con la visualización de datos y el análisis estadístico en proyectos académicos y profesionales.</li>
+                <li><strong>Lenguajes de Programación:</strong> Dominio de lenguajes como Java, Python, JavaScript, HTML y CSS, con experiencia en desarrollo de aplicaciones web y soluciones tecnológicas tanto front-end como back-end.</li>
+                <li><strong>Desarrollo Web:</strong> Creación de sitios web interactivos y responsivos utilizando tecnologías como HTML, CSS, JavaScript, y frameworks populares. Desarrollo de soluciones personalizadas adaptadas a las necesidades del cliente.</li>
+                <li><strong>Software Ofimático:</strong> Manejo avanzado de Microsoft Word y Excel, con capacidad para crear documentos profesionales, reportes detallados y realizar análisis de datos complejos mediante tablas y gráficos.</li>
+                <li><strong>Gestión Documental:</strong> Conocimiento en procesos de impresión y fotocopiado profesional, manejo de documentos confidenciales y organización eficiente de archivos físicos y digitales.</li>
+                <li><strong>Administración y Finanzas:</strong> Sólidos conocimientos en administración de recursos, manejo de caja, presupuestos y procesos administrativos generales. Experiencia en la optimización de procesos financieros y contables.</li>
+                <li><strong>Atención al Cliente:</strong> Fluidez en comunicación, empatía, resolución de problemas y manejo de quejas. Capacidad para brindar un servicio personalizado y de alta calidad, orientado a satisfacer las necesidades del cliente.</li>
+                <li><strong>Gestión de Proyectos:</strong> Planificación y ejecución de proyectos tecnológicos y de desarrollo web, asegurando el cumplimiento de plazos, calidad y objetivos establecidos.</li>
+                <li><strong>Trabajo en Equipo:</strong> Colaboración efectiva en entornos multidisciplinarios, fomentando la comunicación abierta y el trabajo conjunto para alcanzar los objetivos comunes.</li>
+            </ul>
+        </section>
+        
     </main>
+
+    <!-- Pie de página con derechos de autor -->
     <footer>
-        <p>&copy; 2024 - Currículum de Yurquina Ruben Antonio</p>
+        <p>&copy; 2025 - Tec. Yurquina Ruben Antonio</p>
     </footer>
+
+    <!-- Vinculación de un archivo JavaScript para interactividad (por ejemplo, para un botón o formulario) -->
     <script src="script.js"></script>
 </body>
 </html>

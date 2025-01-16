@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    alert("¡Bienvenido a mi currículum vitae!");
+    alert("¡Me presento, soy Antonio y te muestro mi CV!");
 });
